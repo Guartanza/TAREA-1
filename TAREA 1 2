@@ -1,0 +1,12 @@
+#El usuario debe ingresar un número
+numero = float(input("Ingresa un número:"))
+
+if numero > 0: #Comprobarcar si el número ingresado es positivo
+    print("El número ingresado es positivo") 
+    
+elif numero < 0: #Comprobar si el número ingresado es negativo
+    print("El número ingresado es negativo") #Es negativo el número cuando es menor que 0
+    
+else:
+    print("El número ingresado es cero") #Se imprime la linea si el número ingresado es 0
+  

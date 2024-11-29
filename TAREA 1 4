@@ -1,0 +1,8 @@
+#El usuario debe ingresar la nota del estudiante
+nota = float(input("Ingresa la nota: "))
+
+# Comprobar si el estudiante está aprobado o reprobado
+if nota >= 7:
+    print("Aprobado.") #Imprimir la linea si aprobo
+else:
+    print("Reprobado.") #Imprimir la linea si reprobo

@@ -1,0 +1,11 @@
+#El usuario debe ingresar el monto que gasto el cliente
+monto = float(input("Ingrese el monto gastado por el cliente: "))
+
+# Calcular el total para comprobar si aplica el descuento
+if monto > 100:
+    descuento = monto * 0.20
+    total = monto - descuento
+else:
+    total = monto
+
+print(f"El total a pagar es: ${total:.2f}") # Mostrar el total a pagar por el cliente

@@ -1,0 +1,11 @@
+#El usuario debe ingresar un número
+numero = float(input("Ingrese un número: "))
+
+if numero > 10: #Comprobar si el número es mayor que 10
+    print("Este número es mayor que 10") 
+    
+elif numero < 10: #Comprobar si el número es menor que 10
+    print("Este número es menor que 10") #Se imprime la linea si el número es menor que 10
+    
+else:
+    print("El número es igual a 10")  #Se imprime la linea si el número es igual a 10

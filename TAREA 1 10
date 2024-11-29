@@ -1,0 +1,13 @@
+#El usuario debe ingresar un año para ver si es o no bisiesto
+año = int(input("Ingrese el año para ver si es o no bisiesto: "))
+
+# Comprobar si el año es bisiesto
+if (año % 4 == 0 and año % 100 != 0) or (año % 400 == 0):
+    año_bisiesto = True
+else:
+    año_bisiesto = False
+
+if año_bisiesto:
+    print(f"El año {año} es bisiesto") #Imprimir la linea si el año es bisiesto
+else:
+    print(f"El año {año} no es bisiesto") #Imprimir la linea si el año no es bisiesto

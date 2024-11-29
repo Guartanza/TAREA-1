@@ -1,0 +1,23 @@
+#El usuario debe ingresar dos números
+numero1 = float(input("Introduce el primer número: "))
+numero2 = float(input("Introduce el segundo número: "))
+
+# Solicitar la operación al usuario
+operacion = input("Ingresa la operación que  (+, -, *, /): ")
+
+# Realizar el cálculo que corresponda a la operación seleccionada
+if operacion == '+':
+    resultado = numero1 + numero2
+elif operacion == '-':
+    resultado = numero1 - numero2
+elif operacion == '*':
+    resultado = numero1 * numero2
+elif operacion == '/':
+    if numero2 != 0:
+        resultado = numero1 / numero2
+    else:
+        resultado = "Dividido por 0" 
+else:
+    resultado = "Operación invalida"
+
+print(f"El resultado de {numero1} {operacion} {numero2} es: {resultado}") #Imprimir la linea mostrando el resultado

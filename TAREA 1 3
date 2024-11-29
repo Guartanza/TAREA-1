@@ -1,0 +1,9 @@
+#El usuario debe ingresar un número
+numero = int(input("Ingresa un número: "))
+
+if numero % 2 == 0: # Comprobar si el número es par
+    print("Es par") #Imprimir la linea si el número es par
+    
+# Entonces si el número ingresado no es par nos muestra qu es impar
+else:
+    print("Es impar") # Imprimir que el número es impar

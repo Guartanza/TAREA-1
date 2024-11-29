@@ -1,0 +1,9 @@
+#El usuario debe ingresar la edad que tiene
+edad = int(input("Ingresa tu edad: "))
+
+#Comprobar si la edad es mayor o igual a 18
+if edad >= 18:
+    print("Puedes votar") #Si la edad es menor o igual a 18 si puede votar
+    
+else:
+    print("No puedes votar") #Si la edad es menor a 18 no puede votar
