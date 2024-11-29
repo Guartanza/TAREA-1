@@ -1,0 +1,11 @@
+#Elegir una contraseña fija
+contraseña_correcta = "12345"
+
+#El usuario debe ingresar la contraseña
+contraseña = input("Ingrese la contraseña: ")
+
+#Comprobar si la contraseña es correcta
+if contraseña == contraseña_correcta:
+    print("Acceso concedido") #Ingresa porque la contraseña esta bien
+else:
+    print("Acceso denegado") #No permite ingresar porque la contraseña esta mal
