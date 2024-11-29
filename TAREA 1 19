@@ -1,0 +1,4 @@
+# Utilizamos el bucle for para imprimir los números pares entre 1 y 20
+for numero in range(1, 21): #El range se queda con el ultimo número
+    if numero % 2 == 0: #El condicional if lo usamos para verificar si el número es par
+        print(numero) # Imprime los números pares

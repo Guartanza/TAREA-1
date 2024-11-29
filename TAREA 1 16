@@ -1,0 +1,3 @@
+# Utilizar el bucle for para mostrar los números en rango del 1 al 10
+for numero in range(1, 11): #El range toma el ultimo número 
+    print(numero) #Imprime del número 1 al 10

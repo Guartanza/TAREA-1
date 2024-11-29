@@ -1,0 +1,18 @@
+#El usuario debe ingresar la calificación
+calificacion = float(input("Ingresa la calificación en números: "))
+
+#Determinar la letra que corresponda a la calificación ingresada
+if 90 <= calificacion <= 100:
+    letra = "A"
+elif 80 <= calificacion < 90:
+    letra = "B"
+elif 70 <= calificacion < 80:
+    letra = "C"
+elif 60 <= calificacion < 70:
+    letra = "D"
+elif calificacion < 60:
+    letra = "F"
+else:
+    letra = "Calificación incorrecta" #Imprimir cuando la calificación no esta dentro del rango
+
+print(f"La calificación {calificacion} corresponde a la letra: {letra}") #Imprimir la letra correspondiente a la calificación

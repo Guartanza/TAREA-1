@@ -1,0 +1,7 @@
+#Ponemos la variable i en 10
+i = 10
+
+#Utlizamos bucle while que se ejecuta mientras i sea mayor o igual a 1
+while i >= 1:
+    print(i)  # Nos muestra cada valor actual de i
+    i -= 1    # Reduce el valor de i en 1 en cada repetición

@@ -1,0 +1,13 @@
+#Importar random para generar los números
+import random
+
+numero_aleatorio = random.randint(1, 10) # Generar un número aleatorio 
+
+#El usuario debe ingresar un número
+adivinanza = int(input("Adivina el número (entre 1 y 10): "))
+
+#Comprobar si adivino el usuario
+if adivinanza == numero_aleatorio:
+    print("Adivinaste el número")
+else:
+    print(f"El número {numero_aleatorio} era correcto.")

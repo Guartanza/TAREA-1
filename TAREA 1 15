@@ -1,0 +1,23 @@
+# Ingresar el usuario y contraseña correctos
+usuario_correcto = "admin"
+contraseña_correcta = "12345"
+
+#Comenzar con el contador de intentos maximos
+intentos = 0
+max_intentos = 3
+
+#Utilizamos el bucle while para pedir el usuario y contraseña
+while intentos < max_intentos:
+    usuario = input("Ingresa el usuario: ") #El usuario debe ingresar el usuario correcto
+    contraseña = input("Ingresa la contraseña: ") #El usuario debe ingresar la contraseña correcta
+
+    #Comprobar si el nombre de usuario y la contraseña son correctos
+    if usuario == usuario_correcto and contraseña == contraseña_correcta:
+        print("Acceso correcto")
+        break #Bloquea cuando cumple el número de intentos maximos
+    else:
+        intentos += 1
+        print(f"Nombre de usuario o contraseña incorrectos. Intento {intentos} de {max_intentos}.")
+
+if intentos == max_intentos: #Comprobar si se alcanzó el número máximo de intentos
+    print("Has alcanzado el número máximo de intentos")
