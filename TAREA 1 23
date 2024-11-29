@@ -1,0 +1,13 @@
+#El usuario debe ingresar un número 
+numero = int(input("Ingresa un número: "))
+
+#Comenzar la suma de los dígitos
+suma_digitos = 0
+
+#Utilizando el bucle while calcular la suma de los dígitos
+while numero > 0:
+    digito = numero % 10
+    suma_digitos += digito
+    numero = numero // 10
+
+print(f"La suma de los dígitos es: {suma_digitos}") #Imprimir la suma de los dígitos

@@ -1,0 +1,7 @@
+#El usuario debe ingresar un número
+numero = int(input("Introduce un número: "))
+
+# Convertir el número a cadena luego invertir la cadena y convertirla de nuevo a entero
+numero_invertido = int(str(numero)[::-1])
+
+print(f"El número invertido es: {numero_invertido}")#Imprimir el número invertido
