@@ -1,0 +1,12 @@
+#Importar el modulo match
+import math
+
+# Definir la función que recibe el radio y retorna el área del círculo
+def area_circulo(radio):
+    return math.pi * radio ** 2
+
+radio = float(input("Introduce el radio del círculo: ")) #El usuario debe ingresar el radio del circulo
+
+#Traer a la función y mostrar el resultado
+resultado = area_circulo(radio)
+print(f"El área del círculo con radio {radio} es: {resultado:.2f}") #Imprimir el resultado del area del circulo

@@ -1,0 +1,11 @@
+# Definir la función que recibe un número y retorna True si es par y False si es impar
+def es_par(numero):
+    return numero % 2 == 0
+
+numero = int(input("Ingresa un número: ")) #El usuario debe ingresar un número
+
+#Traer a la función y mostrar el resultado
+if es_par(numero):
+    print(f"El número {numero} - True") #Imprimir true si el número es par
+else:
+    print(f"El número {numero} - False") #Imprimir false si el número es impar

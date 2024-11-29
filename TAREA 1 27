@@ -1,0 +1,11 @@
+#Utilizar una función que recibe dos números y retorna la suma
+def sumar(a, b):
+    return a + b
+
+#El usuario debe ingresar dos números
+num1 = float(input("Ingresa el primer número: ")) 
+num2 = float(input("Ingresa el segundo número: "))
+
+#Traer a la función y mostrar el resultado
+resultado = sumar(num1, num2)
+print(f"La suma de {num1} y {num2} es: {resultado}") #Imprimir el resultado de la suma

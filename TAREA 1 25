@@ -1,0 +1,16 @@
+#Comenzar con las variables
+calificaciones = []
+calificacion = 0
+
+#El usuario debe ingresar calificaciones hasta que ingrese -1
+while calificacion != -1:
+    calificacion = float(input("Ingresa una calificaciòn (-1 para terminar): "))
+    if calificacion != -1:
+        calificaciones.append(calificacion)
+
+# Calcular el promedio de las calificaciones
+if calificaciones:
+    promedio = sum(calificaciones) / len(calificaciones)
+    print(f"El promedio de las calificaciones es: {promedio:.2f}") #Imprimir el promedio de las calificaciones ingresadas
+else:
+    print("No se ingresaron calificaciones")

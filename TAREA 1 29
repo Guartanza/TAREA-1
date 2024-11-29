@@ -1,0 +1,9 @@
+#Utilizar la función que recibe un número y retorna su cuadrado
+def cuadrado(numero):
+    return numero ** 2
+
+numero = float(input("Ingresa un número: ")) #El usuario debe ingresar un número
+
+#Traer a la función y mostrar el resultado
+resultado = cuadrado(numero)
+print(f"El cuadrado de {numero} es: {resultado}") #Imprimir el resultado

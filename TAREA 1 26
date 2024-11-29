@@ -1,0 +1,6 @@
+#Utilizar la función que recibe un nombre y retorna un saludo
+def saludar(nombre):
+    return f"Hola {nombre} !Que tal"
+
+nombre_usuario = input("Ingresa tu nombre: ") #El usuario debe ingresar su nombre
+print(saludar(nombre_usuario))#Traer a la función y mostrar el saludo
